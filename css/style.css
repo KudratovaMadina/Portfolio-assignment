@@ -514,9 +514,15 @@ a {
     .photos__item img {
         height: 300px;
     }
+    .skills{
+        padding-top: 0;
+    }
+    .portfolio__pics{
+        transform: scale(1.2);
+    }
 }
 
-@media (max-width:991px) {
+@media (max-width:1025px) {
     .container {
         max-width: 740px;
     }
@@ -612,9 +618,9 @@ a {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .container {
-        max-width: 550px;
+        max-width: 450px;
     }
 
     .header__list {
@@ -710,7 +716,7 @@ a {
     }
 }
 
-@media (max-width:537px) {
+@media (max-width:481px) {
     .container {
         max-width: 315px;
     }
@@ -741,7 +747,7 @@ a {
         max-width: 100%;
         padding-top: 25px;
         font-size: 35px;
-        line-height: 20px;
+        line-height: 40px;
     }
 
     .header__text h2 {
