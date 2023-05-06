@@ -629,12 +629,13 @@ a {
         gap: 50px;
     }
 
-    .header__content {
-        padding: 30px 0 20px 0;
+    .header__text {
+        padding: 0px 0 20px 0;
     }
     .header__text h1{
         text-align: center;
-
+       line-height: 70px;
+       padding-bottom: 20px;
     }
 
     .header__content a {
@@ -698,15 +699,14 @@ a {
         padding: 0 0 20px 0;
     }
 
- 
-
     .photos__item{
        max-width: 100%;
     }
 
     .photos__item img {
-        max-width: 80%;
-        min-height: 300px;
+        max-width: 100%;
+        min-height: 400px;
+        object-fit: cover;
     }
 }
 
